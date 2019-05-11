@@ -36,3 +36,24 @@ nav ul ul{
 nav>ul>li:last-child:hover ul{
   display: block;
 }
+
+main {
+  padding-top: 10%;
+}
+
+div.parent {
+  border: 2px solid black;
+  height: 500px;
+  width: 600px;
+  margin: auto;
+  position: relative;
+}
+div.parent div.child {
+  border: 2px solid black;
+  height: 30%;
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+
+}
