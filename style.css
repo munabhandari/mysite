@@ -1,6 +1,14 @@
 header {
   border: 1px solid grey;
   padding: 10px;
+  width: 100%;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: white;
+  z-index: 1;
 }
 
 header h1 i {
@@ -38,6 +46,7 @@ nav>ul>li:last-child:hover ul{
 }
 
 main {
+  margin-top: 200px;
   padding-top: 10%;
 }
 
